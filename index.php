@@ -1,6 +1,8 @@
 
 <?php
       if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        include("config.php");
+      }else{
         include("process.php");
       } else {
         include("adresse.php");
@@ -24,5 +26,7 @@
         echo '<button onclick="goBack()">Modifier</button>';
       }
       ?>
-    ?>
+    <?php
+
+?>
     
