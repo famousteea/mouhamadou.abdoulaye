@@ -8,6 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     for ($i = 1; $i <= $addressCount; $i++) {
       echo '
         <div class="address-section">
+        <link rel="stylesheet" href="./style.css">
           <label for="street'.$i.'">Street:</label>
           <input type="text" name="street'.$i.'" id="street'.$i.'" maxlength="50" required>
 
