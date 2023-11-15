@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           </select>
 
           <label for="zipcode'.$i.'">Zipcode:</label>
-          <input type="text" name="zipcode'.$i.'" id="zipcode'.$i.'" pattern="[0-9]{6}" required>
+          <input type="text" name="zipcode'.$i.'" id="zipcode'.$i.'" pattern="[0-9]{6}">
         </div>
       ';
     }

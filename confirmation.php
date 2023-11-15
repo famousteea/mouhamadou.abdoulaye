@@ -3,8 +3,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $addressCount = isset($_POST['addressCount']) ? (int)$_POST['addressCount'] : 0;
 
   if ($addressCount > 0) {
-    echo '<form method="post" action="confirmation.php">';
-    
+    echo '<form method="post" action="index.php">';
+  
     for ($i = 1; $i <= $addressCount; $i++) {
       echo '
         <div class="address-section">
